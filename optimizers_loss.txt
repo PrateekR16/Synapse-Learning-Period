@@ -1,0 +1,32 @@
+Loss Functions : 
+
+We cannot calculate the perfect weights for a neural network; there are too many unknowns. Instead, the problem of learning is cast as a search or optimization problem and an algorithm is used to navigate the space of possible sets of weights the model may use in order to make good or good enough predictions.
+
+Typically, a neural network model is trained using the stochastic gradient descent optimization algorithm and weights are updated using the backpropagation of error algorithm.
+
+The gradient descent algorithm seeks to change the weights so that the next evaluation reduces the error, meaning the optimization algorithm is navigating down the gradient (or slope) of error.
+
+Typically, with neural networks, we seek to minimize the error. As such, the objective function is often referred to as a cost function or a loss function and the value calculated by the loss function is simply 'loss'.
+
+Broadly, loss functions can be classified into two major categories depending upon the type of learning task we are dealing with — Regression losses and Classification losses
+
+Types of Loss Functions
+
+1.Mean Square Error(MSE)
+2.Mean Absolute Error(MAE)
+3.Multi class SVM Loss
+4.Cross Entropy Loss(Most common for Classification problems)
+
+
+Different Optimizers :
+Optimizers are algorithms or methods used to change the attributes of the neural network such as weights and learning rate to reduce the losses. Optimizers are used to solve optimization problems by minimizing the function.
+
+How you should change your weights or learning rates of your neural network to reduce the losses is defined by the optimizers you use. Optimization algorithms are responsible for reducing the losses and to provide the most accurate results possible.
+
+Different Optimizers used : 
+1.Gradient Descent (GD)
+2.Stochastic Gradient Descent (SGD)
+3.Nesterov Accelerated Gradient (NAG)
+4.AdaDelta
+5.Adam
+and many more..........
